@@ -1,0 +1,73 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  transition: all 0.55s ease;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link:hover {
+  transform: translateY(-5px);
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.num {
+  position: absolute;
+  top: 46.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Clarendon";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100px;
+  text-shadow: -1px -1px 30px #a60707, 10px -1px 0px rgb(43, 1, 1),
+    -1px 1px 0px #420f0f, 0px 0px 100px #ffffff;
+}
+
+.spin{
+  font-weight: 600;
+  color: white;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  transition: all 0.55s ease;
+}
+
+.spin:hover{
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  transform: translateY(-5px);
+}

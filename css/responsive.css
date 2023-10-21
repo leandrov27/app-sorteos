@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    top: 51.5%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 607px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    font-size: 80px;
+    top: 51.5%;
+    left: 51%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    font-size: 70px;
+    top: 52%;
+    left: 51.5%;
+  }
+}
+
+@media (max-width: 390px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    font-size: 60px;
+    top: 52%;
+    left: 50.5%;
+  }
+}
+
+@media (max-width: 362px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    font-size: 50px;
+    top: 52.5%;
+    left: 50.5%;
+  }
+}
+
+@media (max-width: 340px) {
+  body {
+    backdrop-filter: blur(3px);
+  }
+  .num {
+    font-size: 50px;
+    top: 52.5%;
+    left: 50.5%;
+  }
+}

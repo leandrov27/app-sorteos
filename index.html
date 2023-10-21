@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>APP SORTEOS</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+      integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="css/cover.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-2 logo-masthead">
+            <a href="#">
+              <img src="./img/logo.png" draggable="false" width="120" alt="logo">
+            </a>
+          </h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a href="#" class="nav-link a"><i class="ri-whatsapp-line"></i></a>
+            <a href="#" class="nav-link b"><i class="ri-facebook-line"></i></a>
+            <a href="#" class="nav-link c"><i class="ri-instagram-line"></i></a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <h1 class="num" id="numberDisplay"></h1>
+        <div class="img-container">
+          <img src="img/slot.png" class="img-fluid" alt="slot">
+        </div>
+      </main>
+
+      <footer class="mt-auto text-white footer-masthead">
+        <button class="spin" id="spinButton">SORTEAR</button>
+        <p>Copyright &copy; 2023</p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
