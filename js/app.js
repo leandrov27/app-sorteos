@@ -18,6 +18,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function startAnimation() {
+    /*var xhr = new XMLHttpRequest();
+    xhr.open("GET", "get_numbers.php", true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          var response = JSON.parse(xhr.responseText);
+          animateNumbers(response);
+        }
+      };
+    xhr.send();*/
+    
     var simulaciónServidor = [8 ,4, 9, 6];
     animateNumbers(simulaciónServidor, 0);
   }
